@@ -22,13 +22,14 @@ const Navbar = () => {
             <div className="companyicon">
             <img src="/assests/chct.jpg" alt="img" className="chcticon" />
             </div>
-            <div className="chcttital">Chamela Helpdia Charitable Trust</div>
+            <div className="chcttital titaldesktop">Chamela Helpdia Charitable Trust</div>
+            <div className="chcttital titalmoble">CHCT</div>
             </div>
             <div className="dropdown">
        <img onClick={()=>{dropdownHandler()}} className={click ? "menuicon menuiconhide" : "munuicon"} src="/assests/menu.png" alt="img" />
-       {/* <img onClick={()=>{dropdownHandler()}} className='menuicon ' src="/assests/menu.png" alt="img" /> */}
+      
        <img onClick={()=>{dropdownHandler2()}} className={click ? "closeicon menuiconopen" : "closeicon "} src="/assests/close.png" alt="img" />
-       {/* <img onClick={()=>{dropdownHandler2()}} className='closeicon' src="/assests/close.png" alt="img" /> */}
+  
             </div>
 
             </div>

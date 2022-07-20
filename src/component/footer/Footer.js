@@ -86,7 +86,8 @@ const Footer = () => {
             <div className="footerbottumicon">
               <img className='buttomicon' src="/assests/footerimg.png" alt="" />
               </div>
-              <div className="foottertital">Chamela Helpdia Charitable Trust</div>
+              <div className="foottertital fotttitaldesktop">Chamela Helpdia Charitable Trust</div>
+              <div className="foottertital foottitalmoble">CHCT</div>
             
 
           </div>
